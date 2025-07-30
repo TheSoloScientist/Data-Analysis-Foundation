@@ -1,4 +1,4 @@
-# 📊 Mastering Data Analysis Before Machine Learning
+# Mastering Data Analysis Before Machine Learning
 
 > **"Better data beats fancier algorithms." — Peter Norvig**
 
