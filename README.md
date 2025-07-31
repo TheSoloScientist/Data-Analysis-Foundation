@@ -1,15 +1,23 @@
-# Data Analysis Before Machine Learning
+## Project Purpose
 
-> **"Better data beats fancier algorithms." — Peter Norvig**
+This repository is a hands-on learning space focused on building **robust and reproducible** data analysis workflows across **diverse real-world datasets** — *before* applying any machine learning or complex modeling techniques.
 
-# Project Goal:
+> **Core Principle:** You can't trust machine learning unless you understand and trust your data first.
 
-This repository is dedicated to building *strong, reproducible* data analysis workflows on **diverse datasets** — before jumping into ML or complex modeling.
-> Reminder: **You can’t trust machine learning unless you trust the data first**.
-This repository is my learning space where I explore how to work with different types of data and practice data analysis techniques.
+### What This Project Covers
 
-By focusing on `Scikit-learn` datasets covering **Financial data**, **Bioinformatics data**, and **'General-purpose' data**, this project aims to demonstrate **why data analysis is not just the first step — it's the foundation**.
----
+Using curated datasets from `scikit-learn`, this project explores practical data analysis techniques in three key areas:
+
+- **Financial Data**  
+  Understanding trends, risks, and patterns in structured financial datasets.
+
+- **Bioinformatics Data**  
+  Preprocessing and analyzing biological data, where domain complexity meets noise and variability.
+
+- **General-purpose Datasets**  
+  Learning to adapt workflows to classic benchmark datasets used in education and research.
+
+The goal is to **highlight the critical role of data understanding** in building meaningful, ethical, and accurate ML models.
 
 ## Why Focus on Data Analysis First?
 
