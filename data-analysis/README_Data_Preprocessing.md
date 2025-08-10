@@ -1,7 +1,10 @@
 
 # Data Preprocessing with Visual Diagnostics
 
-A hands-on guide to understanding and applying common data preprocessing techniques using `scikit-learn`, with visual feedback to help you make better decisions.
+A Dands-on guide to understanding and applying common data preprocessing techniques using `scikit-learn`, with visual feedback to help you make better decisions.
+A Hands-on guide on a set of assignments in:
+- Pandas
+- Numpy
 
 > Goal: Intuitively understand preprocessing transformations by showing their effects before and after using visualizations and summary statistics.
 
@@ -89,6 +92,7 @@ hv = HashingVectorizer(n_features=5)
 
 ## Lessons
 
+
 - Always inspect your data with:
   - .describe()
   - .info()
@@ -97,18 +101,9 @@ hv = HashingVectorizer(n_features=5)
 - Avoid MinMaxScaler when data has outliers — use RobustScaler instead.
 
 - Use OneHotEncoding when your model can’t interpret numeric labels as categories.
-
----
-
-## How to Run
-
-To run the complete preprocessing and visual diagnostics:
-
-```bash
-python data_preprocessing_diagnostics.py
-```
-
-Or launch the notebook in Jupyter for an interactive experience.
+----
+# Personal Takeaways:
+As an aspiring Solutions Architect, this repo shifted my focus away from `coding` and toward `pattern-recognition`. My current onelook is to spot reuseable logic, translate it into an intuition, not memorise, and store it. 
 
 ---
 
