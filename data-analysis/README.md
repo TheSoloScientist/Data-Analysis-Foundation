@@ -1,12 +1,14 @@
 
 # Data Preprocessing with Visual Diagnostics
 
-A Dands-on guide to understanding and applying common data preprocessing techniques using `scikit-learn`, with visual feedback to help you make better decisions.
-A Hands-on guide on a set of assignments in:
+A Hands-on guide to understanding and applying common data preprocessing techniques using `scikit-learn`, with visual feedback to help make better decisions.
+
+A **Hands-on guide** on a set of assignments in:
+
 - Pandas
 - Numpy
 
-> Goal: Intuitively understand preprocessing transformations by showing their effects before and after using visualizations and summary statistics.
+> **Goal:** Intuitively understand preprocessing transformations by showing their effects before and after using visualizations and summary statistics.
 
 ---
 
@@ -30,6 +32,7 @@ A Hands-on guide on a set of assignments in:
 ## Visual Diagnostics
 
 Each scaler and transformer includes:
+
 - Histograms and boxplots before vs. after
 - .describe() summaries for mean, std, min, max
 - Inline explanations of why each transformation is used
@@ -45,6 +48,7 @@ from sklearn.preprocessing import StandardScaler
 ss = StandardScaler()
 df_scaled = pd.DataFrame(ss.fit_transform(df), columns=df.columns)
 ```
+
 Use when you want to center data and scale to unit variance.
 
 ---
@@ -56,6 +60,7 @@ from sklearn.preprocessing import RobustScaler
 robust = RobustScaler()
 df_robust = pd.DataFrame(robust.fit_transform(df), columns=df.columns)
 ```
+
 Use when your data contains outliers.  
 Median and IQR are more robust than mean/std.
 
@@ -68,6 +73,7 @@ from sklearn.preprocessing import Normalizer
 normalizer = Normalizer()
 df_norm = pd.DataFrame(normalizer.fit_transform(df), columns=df.columns)
 ```
+
 Use when each row is a vector — e.g., in text mining or clustering.
 
 ---
@@ -101,6 +107,7 @@ hv = HashingVectorizer(n_features=5)
 - Avoid MinMaxScaler when data has outliers — use RobustScaler instead.
 
 - Use OneHotEncoding when your model can’t interpret numeric labels as categories.
+
 ----
 # Personal Takeaways:
 As an aspiring Solutions Architect, this repo shifted my focus away from `coding` and toward `pattern-recognition`. My current onelook is to spot reuseable logic, translate it into an intuition, not memorise, and store it. 

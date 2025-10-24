@@ -1,4 +1,4 @@
-# Robust Data Analysis – Foundation Before Machine Learning
+# Data Analysis – Foundation Before Machine Learning
 
 This repository is a hands-on learning space focused on building **robust and reproducible** data analysis workflows across **diverse real-world datasets** — *before* applying any machine learning or complex modeling techniques.  
 
@@ -10,12 +10,12 @@ This repository is a hands-on learning space focused on building **robust and re
 
 | Folder                  | Description                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|
-| `01-financial`          | Data cleaning and exploratory analysis of structured financial datasets (house prices, macroeconomic indicators). |
-| `02-bioinformatics`     | Preprocessing and exploratory workflows for bioinformatics datasets (breast cancer, gene expression, genetic variation). |
-| `03-general`            | Universal EDA techniques on classic datasets (Iris, weather, surveys, transport, healthcare indicators). |
-| `04-visualizations`     | Reusable plotting utilities: histograms, correlation heatmaps, residual plots, time-series charts. |
-| `05-feature-engineering`| Feature transformations, normalization, scaling, and one-hot encoding examples. |
-| `06-end-to-end`         | Complete analysis pipelines integrating cleaning, EDA, visualization, and feature engineering. |
+| `financial`          | Data cleaning and exploratory analysis of structured financial datasets (house prices, macroeconomic indicators). |
+| `bioinformatics`     | Preprocessing and exploratory workflows for bioinformatics datasets (breast cancer, gene expression, genetic variation). |
+| `general`            | Universal EDA techniques on classic datasets (Iris, weather, surveys, transport, healthcare indicators). |
+| `visualizations`     | Reusable plotting utilities: histograms, correlation heatmaps, residual plots, time-series charts. |
+| `feature-engineering`| Feature transformations, normalization, scaling, and one-hot encoding examples. |
+| `end-to-end`         | Complete analysis pipelines integrating cleaning, EDA, visualization, and feature engineering. |
 
 ---
 
